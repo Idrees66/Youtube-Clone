@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Youtube Clone",
+    "slug": "my-app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/circle.png",
+    "splash": {
+      "image": "./assets/gro.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.alien.me",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.alien.me",
+      "versionCode": 1
+    }
+  }
+}
